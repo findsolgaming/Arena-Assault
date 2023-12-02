@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-62430
+64227
 Successfully changed project path to: /Users/utkarshshukla/Desktop/Arena-Assault/Arena-Assault
 /Users/utkarshshukla/Desktop/Arena-Assault/Arena-Assault
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/utkarshshukla/Desktop/Arena-Assault
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4557288960] Host "[IP] 192.168.236.28 [Port] 0 [Flags] 2 [Guid] 1283547610 [EditorId] 1283547610 [Version] 1048832 [Id] OSXEditor(0,Taras-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4792022528] Host "[IP] 192.168.236.28 [Port] 0 [Flags] 2 [Guid] 1085322377 [EditorId] 1085322377 [Version] 1048832 [Id] OSXEditor(0,Taras-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4557288960] Host "[IP] 192.168.236.28 [Port] 0 [Flags] 2 [Guid] 1283547610 [EditorId] 1283547610 [Version] 1048832 [Id] OSXEditor(0,Taras-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4792022528] Host "[IP] 192.168.236.28 [Port] 0 [Flags] 2 [Guid] 1085322377 [EditorId] 1085322377 [Version] 1048832 [Id] OSXEditor(0,Taras-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 119.86 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 136.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.28f1 (232e59c3f087)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.28f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -73,47 +73,47 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.28f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.28f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.28f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56458
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56930
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.28f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.28f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.28f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.28f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.001326 seconds.
+Registered in 0.001582 seconds.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 105 ms
+Android Extension - Scanning For ADB Devices 120 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 146.92 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 120.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.314 seconds
+- Completed reload, in  1.228 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1315ms)
+	ReloadAssembly (1228ms)
 		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1064ms)
+		EndReloadAssembly (976ms)
 			LoadAssemblies (102ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (202ms)
+			SetupTypeCache (192ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (728ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (664ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (326ms)
+				InitializePlatformSupportModulesInManaged (345ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (147ms)
+				RefreshPlugins (120ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadAttributes (129ms)
 				ProcessInitializeOnLoadMethodAttributes (67ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -121,7 +121,7 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002986 seconds.
+Registered in 0.003705 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/utkarshshukla/Desktop/Arena-Assault/Arena-Assault/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/utkarshshukla/Desktop/Arena-Assault/Arena-Assault/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
@@ -129,47 +129,114 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.147 seconds
+- Completed reload, in  1.958 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2148ms)
-		BeginReloadAssembly (176ms)
+	ReloadAssembly (1960ms)
+		BeginReloadAssembly (185ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (1812ms)
-			LoadAssemblies (128ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1619ms)
+			LoadAssemblies (118ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (509ms)
+			SetupTypeCache (532ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (99ms)
-			SetupLoadedEditorAssemblies (902ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (765ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (56ms)
+				InitializePlatformSupportModulesInManaged (47ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (114ms)
-				ProcessInitializeOnLoadAttributes (687ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (594ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.28f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.12 seconds
-Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3233 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (40.2 KB). Loaded Objects now: 3715.
-Memory consumption went from 124.1 MB to 124.1 MB.
-Total: 7.997862 ms (FindLiveObjects: 0.610350 ms CreateObjectMapping: 0.329954 ms MarkObjects: 6.877231 ms  DeleteObjects: 0.178657 ms)
+Unloading 3403 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (41.7 KB). Loaded Objects now: 3892.
+Memory consumption went from 132.3 MB to 132.2 MB.
+Total: 4.651751 ms (FindLiveObjects: 0.356122 ms CreateObjectMapping: 0.155172 ms MarkObjects: 3.995981 ms  DeleteObjects: 0.143356 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 258364.181266 seconds.
+  path: Assets/Photon Unity Networking/PunIcon-White-128.png
+  artifactKey: Guid(e1e27211415083e41bd38b51da93f58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/PunIcon-White-128.png using Guid(e1e27211415083e41bd38b51da93f58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'e3c3c9f0c6d48fbb63a94534147aa8d9') in 0.836755 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003190 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/utkarshshukla/Desktop/Arena-Assault/Arena-Assault/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/utkarshshukla/Desktop/Arena-Assault/Arena-Assault/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.810 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1811ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (1456ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (446ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (710ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (57ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (540ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3393 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (22.1 KB). Loaded Objects now: 3898.
+Memory consumption went from 135.1 MB to 135.1 MB.
+Total: 5.904116 ms (FindLiveObjects: 0.376975 ms CreateObjectMapping: 0.338176 ms MarkObjects: 5.157280 ms  DeleteObjects: 0.030346 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -185,7 +252,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002556 seconds.
+Registered in 0.002900 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/utkarshshukla/Desktop/Arena-Assault/Arena-Assault/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/utkarshshukla/Desktop/Arena-Assault/Arena-Assault/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
@@ -193,43 +260,343 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.742 seconds
+- Completed reload, in  1.761 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1743ms)
-		BeginReloadAssembly (211ms)
+	ReloadAssembly (1762ms)
+		BeginReloadAssembly (206ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (1416ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (450ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (652ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (495ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3393 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (22.1 KB). Loaded Objects now: 3901.
+Memory consumption went from 135.1 MB to 135.1 MB.
+Total: 4.548530 ms (FindLiveObjects: 0.332382 ms CreateObjectMapping: 0.222808 ms MarkObjects: 3.963706 ms  DeleteObjects: 0.028461 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002884 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/utkarshshukla/Desktop/Arena-Assault/Arena-Assault/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/utkarshshukla/Desktop/Arena-Assault/Arena-Assault/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.805 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1806ms)
+		BeginReloadAssembly (209ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (89ms)
-		EndReloadAssembly (1389ms)
-			LoadAssemblies (101ms)
+			CreateAndSetChildDomain (87ms)
+		EndReloadAssembly (1461ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (481ms)
+			SetupTypeCache (445ms)
 			ReleaseScriptCaches (2ms)
 			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (611ms)
+			SetupLoadedEditorAssemblies (708ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (44ms)
+				InitializePlatformSupportModulesInManaged (46ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (473ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (550ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.60 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.87 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3223 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (22.0 KB). Loaded Objects now: 3718.
-Memory consumption went from 123.0 MB to 123.0 MB.
-Total: 4.374174 ms (FindLiveObjects: 0.356862 ms CreateObjectMapping: 0.153439 ms MarkObjects: 3.830912 ms  DeleteObjects: 0.031861 ms)
+Unloading 3393 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (22.0 KB). Loaded Objects now: 3904.
+Memory consumption went from 135.1 MB to 135.1 MB.
+Total: 4.402781 ms (FindLiveObjects: 0.428762 ms CreateObjectMapping: 0.243835 ms MarkObjects: 3.681455 ms  DeleteObjects: 0.047269 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003483 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/utkarshshukla/Desktop/Arena-Assault/Arena-Assault/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/utkarshshukla/Desktop/Arena-Assault/Arena-Assault/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.761 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1762ms)
+		BeginReloadAssembly (208ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (1415ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (434ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (685ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (44ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (530ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3393 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (22.1 KB). Loaded Objects now: 3907.
+Memory consumption went from 135.1 MB to 135.1 MB.
+Total: 6.874667 ms (FindLiveObjects: 0.616198 ms CreateObjectMapping: 0.406266 ms MarkObjects: 5.727334 ms  DeleteObjects: 0.122939 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003550 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/utkarshshukla/Desktop/Arena-Assault/Arena-Assault/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/utkarshshukla/Desktop/Arena-Assault/Arena-Assault/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.946 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1947ms)
+		BeginReloadAssembly (213ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (1594ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (465ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (803ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (56ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (631ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3393 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (21.9 KB). Loaded Objects now: 3910.
+Memory consumption went from 135.2 MB to 135.1 MB.
+Total: 6.288211 ms (FindLiveObjects: 0.413470 ms CreateObjectMapping: 0.437882 ms MarkObjects: 5.403637 ms  DeleteObjects: 0.031692 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003517 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/utkarshshukla/Desktop/Arena-Assault/Arena-Assault/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/utkarshshukla/Desktop/Arena-Assault/Arena-Assault/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.736 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1737ms)
+		BeginReloadAssembly (208ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (1393ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (450ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (644ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (498ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3393 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (21.9 KB). Loaded Objects now: 3913.
+Memory consumption went from 135.2 MB to 135.1 MB.
+Total: 6.900150 ms (FindLiveObjects: 0.748088 ms CreateObjectMapping: 0.769455 ms MarkObjects: 5.330604 ms  DeleteObjects: 0.050254 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002894 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/utkarshshukla/Desktop/Arena-Assault/Arena-Assault/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/utkarshshukla/Desktop/Arena-Assault/Arena-Assault/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.812 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1813ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (1434ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (469ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (662ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (509ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3393 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (22.0 KB). Loaded Objects now: 3916.
+Memory consumption went from 135.2 MB to 135.1 MB.
+Total: 7.108000 ms (FindLiveObjects: 0.520039 ms CreateObjectMapping: 0.356198 ms MarkObjects: 6.203896 ms  DeleteObjects: 0.026510 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -244,217 +611,842 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 256586.458364 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-0_comp_dir.png
-  artifactKey: Guid(265f0cdf29d3e4852940b47156e4927b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-0_comp_dir.png using Guid(265f0cdf29d3e4852940b47156e4927b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '193dd5b55dbb3a4daae5f2ca795548ad') in 0.847814 seconds 
+  Time since last request: 275.429748 seconds.
+  path: Assets/Photon Unity Networking/Editor/PhotonNetwork/help.png
+  artifactKey: Guid(9f1212502533cb34188dd6ef094188cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Editor/PhotonNetwork/help.png using Guid(9f1212502533cb34188dd6ef094188cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a446725603c1b99522696072097b0e8') in 0.057656 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-7_comp_dir.png
-  artifactKey: Guid(a4687efe619a44d64acafcfd1e029073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-7_comp_dir.png using Guid(a4687efe619a44d64acafcfd1e029073) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '4516c8439dac6025b1c8c6403cf959a1') in 0.007558 seconds 
+  Time since last request: 45.684654 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_military3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(c09b95e0f2ea8490eb13031828935759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_military3d3aba195e4d26ee.terrainlayer using Guid(c09b95e0f2ea8490eb13031828935759) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '98b9b61a9a9c3f84eb1b3482eff664da') in 0.243205 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-7_comp_light.exr
-  artifactKey: Guid(4d286f47f28934165a41606ba77dbf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-7_comp_light.exr using Guid(4d286f47f28934165a41606ba77dbf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5adfa95a7944cf0ffe781bf8556c8219') in 0.787923 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.094096 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-8_comp_dir.png
-  artifactKey: Guid(797b8c5cee29f4b1f98cf15a983307ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-8_comp_dir.png using Guid(797b8c5cee29f4b1f98cf15a983307ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '70e2d49d43a904189b89e7c1db88dfbc') in 0.007349 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-0_comp_shadowmask.png
-  artifactKey: Guid(51f17a8380e2348978e9391d984d7350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-0_comp_shadowmask.png using Guid(51f17a8380e2348978e9391d984d7350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1341399a7f229e6ed3afe5f0eaada37') in 0.012514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-0_comp_light.exr
-  artifactKey: Guid(c094239bce6304c6f9ae7bbea838fbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-0_comp_light.exr using Guid(c094239bce6304c6f9ae7bbea838fbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46833a887704b43aa91d770adfda9789') in 0.012965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-8_comp_shadowmask.png
-  artifactKey: Guid(af23f45ce27354a878bb750664e84d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-8_comp_shadowmask.png using Guid(af23f45ce27354a878bb750664e84d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acab77947aaeffb44da9c9be53781dde') in 0.017015 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-6_comp_dir.png
-  artifactKey: Guid(9e7ba1995dcb5438f9cec2dfb218acce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-6_comp_dir.png using Guid(9e7ba1995dcb5438f9cec2dfb218acce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '1305da2f85d56a449070fa1419b28118') in 0.027278 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-9_comp_dir.png
-  artifactKey: Guid(842310d88091f4205be0ec222a64c5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-9_comp_dir.png using Guid(842310d88091f4205be0ec222a64c5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'e3ea98af6c8dd4a4e1227f3b0880b2da') in 0.025804 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-14_comp_dir.png
-  artifactKey: Guid(1279495c0db4c445a9420966553a8563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-14_comp_dir.png using Guid(1279495c0db4c445a9420966553a8563) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '03e262ad12ebd3ad59cbae8c9bc388ed') in 0.010762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-10_comp_dir.png
-  artifactKey: Guid(603613bc5563045c1ac2ca6c18a493e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-10_comp_dir.png using Guid(603613bc5563045c1ac2ca6c18a493e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '78a5e703b557358bd52abef6b27b90b8') in 0.011177 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-13_comp_light.exr
-  artifactKey: Guid(5a0bd0aff47754e17ac0c7fb0be9a3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-13_comp_light.exr using Guid(5a0bd0aff47754e17ac0c7fb0be9a3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9afe5b0e5fb3a3a80a89ed069d0249') in 0.013175 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-10_comp_light.exr
-  artifactKey: Guid(29ab1218c6f9c40bab5652aaf9edb1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-10_comp_light.exr using Guid(29ab1218c6f9c40bab5652aaf9edb1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc74cb6d4daf498fe69baa353867fda') in 0.024781 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-1_comp_dir.png
-  artifactKey: Guid(371b3e6fd640243bcadaca322489ae0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-1_comp_dir.png using Guid(371b3e6fd640243bcadaca322489ae0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '27ba3ea3481751070eb8fc4d3b74f035') in 0.035905 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-2_comp_light.exr
-  artifactKey: Guid(79d6a0222b99e4ae598c74668958f810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-2_comp_light.exr using Guid(79d6a0222b99e4ae598c74668958f810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b80b047331d5fcf913f99de9ec1a858') in 0.013954 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-4_comp_light.exr
-  artifactKey: Guid(9d420911cf1f94e3784c62951ae27cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-4_comp_light.exr using Guid(9d420911cf1f94e3784c62951ae27cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7859f677534ee527d8e617ce88d6c0cd') in 0.009043 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-6_comp_shadowmask.png
-  artifactKey: Guid(2890651d31bba4fdf9bfac2dfb444b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-6_comp_shadowmask.png using Guid(2890651d31bba4fdf9bfac2dfb444b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857fdb9923675a6a8a86e9ae914c5e3d') in 0.020437 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-5_comp_light.exr
-  artifactKey: Guid(c6b7de86ca908490d9e657efa4e357b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-5_comp_light.exr using Guid(c6b7de86ca908490d9e657efa4e357b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5da019b5c392b98e24a1ea5501b3cc') in 0.019228 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-13_comp_shadowmask.png
-  artifactKey: Guid(358a9cb8fe927493cba746c3b5eafde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-13_comp_shadowmask.png using Guid(358a9cb8fe927493cba746c3b5eafde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fecf04f756d2a50426db55ad1cd9737') in 0.011058 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-6_comp_light.exr
-  artifactKey: Guid(bd8f73135cd484e18aedd56ee826bae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-6_comp_light.exr using Guid(bd8f73135cd484e18aedd56ee826bae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c5945ce5b324c4b448c9768313367b') in 0.009643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-4_comp_dir.png
-  artifactKey: Guid(2e6f5d11a74b34a0194c7d337f87599a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-4_comp_dir.png using Guid(2e6f5d11a74b34a0194c7d337f87599a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '8ce6a28d9a1af06b978bed102051bd02') in 0.006228 seconds 
+  Time since last request: 64.180934 seconds.
+  path: Assets/TPS Shooter (Military style)/Models/Soldiers/SoldierRagdoll/Soldier.fbx
+  artifactKey: Guid(2e48c6ed0a1314879b908d9786d87c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Models/Soldiers/SoldierRagdoll/Soldier.fbx using Guid(2e48c6ed0a1314879b908d9786d87c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929a003b61cbde726f7a67e47860d88d') in 0.496174 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000103 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-8_comp_light.exr
-  artifactKey: Guid(802009b52452948ea93902a4a079c2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-8_comp_light.exr using Guid(802009b52452948ea93902a4a079c2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c854b1c36bcfaec684e71e37290fbf') in 0.015609 seconds 
+  path: Assets/Photon Unity Networking/Demos/Shared Assets/Animations/IdlesWave.fbx
+  artifactKey: Guid(c387a0e47b4244f2b86c50372341024a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/Shared Assets/Animations/IdlesWave.fbx using Guid(c387a0e47b4244f2b86c50372341024a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74fcad199a8b3c8c310206bc29e90e0f') in 0.557915 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-11_comp_dir.png
-  artifactKey: Guid(d0d54ec70f8ac45d6a615870d7875648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-11_comp_dir.png using Guid(d0d54ec70f8ac45d6a615870d7875648) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'e3b37c34afa1fac5bf1b8561262fbda0') in 0.008397 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-2_comp_dir.png
-  artifactKey: Guid(8f61b42c6ac07451d83fc8a63ef8c9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-2_comp_dir.png using Guid(8f61b42c6ac07451d83fc8a63ef8c9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '0dad4524d7207885b1c3c94ecc22fa0c') in 0.007063 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-9_comp_shadowmask.png
-  artifactKey: Guid(63b508444fa1e4f1090334c2b2562313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-9_comp_shadowmask.png using Guid(63b508444fa1e4f1090334c2b2562313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf3876c8a87cfd87012f6df9b812b2e') in 0.005450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-11_comp_light.exr
-  artifactKey: Guid(c045984ef7ce44fde80e6ab10395148f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-11_comp_light.exr using Guid(c045984ef7ce44fde80e6ab10395148f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61883016af8d01aaf8914edfe49f1a4b') in 0.006149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-12_comp_shadowmask.png
-  artifactKey: Guid(1607c0dd8e9e04c1c925baf06d792cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-12_comp_shadowmask.png using Guid(1607c0dd8e9e04c1c925baf06d792cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc5bf5c5c2a20ca96dbf916458b3490') in 0.005959 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-10_comp_shadowmask.png
-  artifactKey: Guid(379f2bae3b5b8479c9ae4abf0546d24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-10_comp_shadowmask.png using Guid(379f2bae3b5b8479c9ae4abf0546d24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20818c718f7e26d1917a93d5ca388fc') in 0.005393 seconds 
+  Time since last request: 0.000093 seconds.
+  path: Assets/Photon Unity Networking/Demos/Shared Assets/Animations/Runs.fbx
+  artifactKey: Guid(b35bea543177b624b8e504a16956614d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/Shared Assets/Animations/Runs.fbx using Guid(b35bea543177b624b8e504a16956614d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19db5aeb2dce589504b92980c520438') in 0.382489 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000077 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-11_comp_shadowmask.png
-  artifactKey: Guid(bd78ed9338bf54a68a0257695139ac3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-11_comp_shadowmask.png using Guid(bd78ed9338bf54a68a0257695139ac3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb46bd5078ae6f3eb73794bcd508a02') in 0.005730 seconds 
+  path: Assets/Photon Unity Networking/Demos/Shared Assets/Animations/Idles.fbx
+  artifactKey: Guid(ce448a8080b4e934b8473badd27be402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/Shared Assets/Animations/Idles.fbx using Guid(ce448a8080b4e934b8473badd27be402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b88ad7ba58443eb7e374c5de53e8a9') in 0.339633 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-12_comp_dir.png
-  artifactKey: Guid(245c2bc8c606244269a42e7db390b2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-12_comp_dir.png using Guid(245c2bc8c606244269a42e7db390b2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'a0ad1c582c06ac3643af22cac64d035b') in 0.020610 seconds 
+  Time since last request: 4.451466 seconds.
+  path: Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/Tower.FBX
+  artifactKey: Guid(879d87fe89f480445aaeaf0b10c85cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/Tower.FBX using Guid(879d87fe89f480445aaeaf0b10c85cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '27bd1d1c850654e6418b180c60f6ae88') in 0.151953 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-2_comp_shadowmask.png
-  artifactKey: Guid(2235b6d912946472dbfc51f78aacf03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-2_comp_shadowmask.png using Guid(2235b6d912946472dbfc51f78aacf03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb37a0d1b6defb05bce13c7dbbecb0a5') in 0.008123 seconds 
+  Time since last request: 0.000103 seconds.
+  path: Assets/TPS Shooter (Military style)/Models/Weapons/Val/Val.FBX
+  artifactKey: Guid(0bbc9ca28642a4c6bbb3ef9285e9d852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Models/Weapons/Val/Val.FBX using Guid(0bbc9ca28642a4c6bbb3ef9285e9d852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa96fe2ef348aad0c31dd795b30c5d0') in 0.114374 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-3_comp_light.exr
-  artifactKey: Guid(6b57cda86b1e14a6e9e1cdc7c010f1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-3_comp_light.exr using Guid(6b57cda86b1e14a6e9e1cdc7c010f1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c06fccc90aeace4101d3cded3eebdfc') in 0.007266 seconds 
+  Time since last request: 0.000079 seconds.
+  path: Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/Tower$NV.FBX
+  artifactKey: Guid(d12969b5461a8e74c8aaf7afe685f427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/Tower$NV.FBX using Guid(d12969b5461a8e74c8aaf7afe685f427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc5e23e14d25afe0b6cbdf4ae37b669') in 0.022926 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-1_comp_light.exr
-  artifactKey: Guid(c599257c01b0546d1ab1991e425d86ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-1_comp_light.exr using Guid(c599257c01b0546d1ab1991e425d86ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6efda58f592e7660fb6d351dd2c11c') in 0.007353 seconds 
+  Time since last request: 0.000103 seconds.
+  path: Assets/TPS Shooter (Military style)/Models/Vehicle/UAZ.fbx
+  artifactKey: Guid(6474488df76554a768ea48a7562eef0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Models/Vehicle/UAZ.fbx using Guid(6474488df76554a768ea48a7562eef0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'bccc26a35c391ab394f603d1eb87efd2') in 0.117377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.799333 seconds.
+  path: Assets/TPS Shooter (Military style)/RPG_FPS_game_assets_industrial/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/Source/UNIFloor_elevation_set_v1.FBX
+  artifactKey: Guid(c6d026d6367d43a438c71a59c9da8290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/RPG_FPS_game_assets_industrial/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/Source/UNIFloor_elevation_set_v1.FBX using Guid(c6d026d6367d43a438c71a59c9da8290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbd75bb0283398aea56669eef97289e') in 0.295122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.245768 seconds.
+  path: Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/Wall_A$NV.FBX
+  artifactKey: Guid(660a83ad90879d44ebf6342bbfc94901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/Wall_A$NV.FBX using Guid(660a83ad90879d44ebf6342bbfc94901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f82c567bafd257e9937f41febe9a006') in 0.030158 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000083 seconds.
-  path: Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-9_comp_light.exr
-  artifactKey: Guid(5f92e9f5ebfa64f0ab3f7d8edb38b98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TPS Shooter (Military style)/Scenes/Military/Lightmap-9_comp_light.exr using Guid(5f92e9f5ebfa64f0ab3f7d8edb38b98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d087ad6023bba4c8f22baac3260652') in 0.007984 seconds 
+  path: Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/Hedges/WiredFenceGate.FBX
+  artifactKey: Guid(8799e8bc6076a1c4d828dbd9f9bf23db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/Hedges/WiredFenceGate.FBX using Guid(8799e8bc6076a1c4d828dbd9f9bf23db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3c29c5ec7cdd33fdfdf9ff97b97e04') in 0.376181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/WoodCrates/WoodCrate_E.FBX
+  artifactKey: Guid(d9e74a29273b479499831a30abd47614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/WoodCrates/WoodCrate_E.FBX using Guid(d9e74a29273b479499831a30abd47614) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '51d2eefea88da0b738cfb57e3659fa58') in 0.046817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/Hedges/WiredFenceWicket.FBX
+  artifactKey: Guid(7fe1d508c6b5d1743bdfd3af57444cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/Hedges/WiredFenceWicket.FBX using Guid(7fe1d508c6b5d1743bdfd3af57444cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245bca3aad8fb533e95b49b94920d264') in 0.078756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/WoodCrates/WoodCrate_B.FBX
+  artifactKey: Guid(964ba1cba469d7948a3b1458eda7eabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/WoodCrates/WoodCrate_B.FBX using Guid(964ba1cba469d7948a3b1458eda7eabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'a6a6994fb4b6a21a5f033ace67f3e3b8') in 0.051698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/Hedges/WoodDeck.FBX
+  artifactKey: Guid(6c38d950f0c2bf148a5b22dfca62c1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/Hedges/WoodDeck.FBX using Guid(6c38d950f0c2bf148a5b22dfca62c1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '972b6794d02fcc91aca4726026d0461b') in 0.055473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/Hedges/WoodOverpass$NV.FBX
+  artifactKey: Guid(2bf13e5e041516e448fc52269abfab3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/Hedges/WoodOverpass$NV.FBX using Guid(2bf13e5e041516e448fc52269abfab3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0719734de7868c38a1f46637727f6a02') in 0.043411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/Hedges/WoodRailings.FBX
+  artifactKey: Guid(2cee52a7c783543489c34a2fc57053aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/Hedges/WoodRailings.FBX using Guid(2cee52a7c783543489c34a2fc57053aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '01568b8a3849a644ff15c869e66f3d84') in 0.063874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/Hedges/WoodOverpassStairs.FBX
+  artifactKey: Guid(9dc0eac1c29ecf840af91e4bf444ecd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/Hedges/WoodOverpassStairs.FBX using Guid(9dc0eac1c29ecf840af91e4bf444ecd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '776d97fe701b9fa6b23db82f8bdfc22c') in 0.044895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/WoodCrates/WoodCrate_D.FBX
+  artifactKey: Guid(2fe7ed3a0772f624b9f60cf0c6c69ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/WoodCrates/WoodCrate_D.FBX using Guid(2fe7ed3a0772f624b9f60cf0c6c69ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'e0961fb6f335a8265a570486e9dc80eb') in 0.056889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/TPS Shooter (Military style)/RPG_FPS_game_assets_industrial/Boxes/Wooden_box_v1/Source/Wooden_box_v1.FBX
+  artifactKey: Guid(dcf39c3c160b51b49af399efea061f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/RPG_FPS_game_assets_industrial/Boxes/Wooden_box_v1/Source/Wooden_box_v1.FBX using Guid(dcf39c3c160b51b49af399efea061f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99b3fdd216db4806738dc59a0345e9d') in 0.161017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/TPS Shooter (Military style)/Zombie/Animations/Zombie@Z_Walk_InPlace.FBX
+  artifactKey: Guid(165698eac7ca81041ad603fc5a3afa55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Zombie/Animations/Zombie@Z_Walk_InPlace.FBX using Guid(165698eac7ca81041ad603fc5a3afa55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'cebbd1919e2947b40d23e291daa1635c') in 0.366073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/TPS Shooter (Military style)/Zombie/Animations/Zombie@Z_Walk.FBX
+  artifactKey: Guid(59dbfb66512f63c4eb6e1e30e0603198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Zombie/Animations/Zombie@Z_Walk.FBX using Guid(59dbfb66512f63c4eb6e1e30e0603198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e3683381c6bacf6a1e1b34ff226bec') in 0.284185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/TPS Shooter (Military style)/Zombie/Animations/Zombie@Z_Attack.FBX
+  artifactKey: Guid(631762b9a30b33a42836730a6b37d13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Zombie/Animations/Zombie@Z_Attack.FBX using Guid(631762b9a30b33a42836730a6b37d13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb2f4d66e61e9bddde65512fab168b3') in 0.248107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/TPS Shooter (Military style)/Zombie/Animations/Zombie@Z_Walk1_InPlace.FBX
+  artifactKey: Guid(3fa7045af54b82c47852949257d136c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Zombie/Animations/Zombie@Z_Walk1_InPlace.FBX using Guid(3fa7045af54b82c47852949257d136c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ada85c8000c7247dc9bbad5350eb1d4') in 0.184334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/TPS Shooter (Military style)/Zombie/Animations/Zombie@Z_Run_InPlace.FBX
+  artifactKey: Guid(79969b20b5ba62e499ee433a4dd38701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Zombie/Animations/Zombie@Z_Run_InPlace.FBX using Guid(79969b20b5ba62e499ee433a4dd38701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f0929c5d22f4fb446513cc18b0b53a') in 0.219996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/WoodCrates/WoodCrate_A.FBX
+  artifactKey: Guid(ecd389287e34fad429710a587230b58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/WoodCrates/WoodCrate_A.FBX using Guid(ecd389287e34fad429710a587230b58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'fedac9b0e7af625944109b83deffbd43') in 0.050803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.743143 seconds.
+  path: Assets/Photon Unity Networking/Demos/Shared Assets/Models/BoundingMesh.obj
+  artifactKey: Guid(a494fd02c2f15b842ba2f5393004cfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/Shared Assets/Models/BoundingMesh.obj using Guid(a494fd02c2f15b842ba2f5393004cfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b22663dec196e026c41b5267ca73d96') in 0.199315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/LightTower$NV.FBX
+  artifactKey: Guid(ccae710815d50b34ab0ac7c8e7346dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/LightTower$NV.FBX using Guid(ccae710815d50b34ab0ac7c8e7346dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecff4646f744532a345d444f5a49e79d') in 0.034622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/Block_A$NV.FBX
+  artifactKey: Guid(d23a1a41d6e4ae24685fb56d4eecc21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/Block_A$NV.FBX using Guid(d23a1a41d6e4ae24685fb56d4eecc21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80cef6a2a220a2cc4a55534494c85332') in 0.061013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/TPS Shooter (Military style)/Models/Weapons/MachineGun/M60E4.FBX
+  artifactKey: Guid(4377b527ec7064147bfa65ae7eee8329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Models/Weapons/MachineGun/M60E4.FBX using Guid(4377b527ec7064147bfa65ae7eee8329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4554816ef8d311bab35b4efa9f79c0') in 0.136855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/Block_B.FBX
+  artifactKey: Guid(a597eec8bcb5a254e83585c8829593e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/Block_B.FBX using Guid(a597eec8bcb5a254e83585c8829593e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '154da6110b4f03c9de7f1644f1853cb2') in 0.049516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/Block_B$NV.FBX
+  artifactKey: Guid(4f15f9496d6dc704ba47aa1f91a10933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Models/MilitaryEnvironment/Block_B$NV.FBX using Guid(4f15f9496d6dc704ba47aa1f91a10933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac36ae83c0075014df30ef30b2353b5') in 0.046454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/TPS Shooter (Military style)/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/Source/Barrel_v1.FBX
+  artifactKey: Guid(ffd14148582c4f84f867ad56a7b3dafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/Source/Barrel_v1.FBX using Guid(ffd14148582c4f84f867ad56a7b3dafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ac6f624012c5e7b28fa7006211b1cb') in 0.091939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/TPS Shooter (Military style)/Models/Weapons/M4/M4A1 Sopmod.fbx
+  artifactKey: Guid(fddeeac0ebed86c4cab4320764b5c227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Models/Weapons/M4/M4A1 Sopmod.fbx using Guid(fddeeac0ebed86c4cab4320764b5c227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3713596e2fda9333de3bcbcf9713da50') in 0.111917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/TPS Shooter (Military style)/Models/WeaponsAdditional/Scope/ACOG Sight.fbx
+  artifactKey: Guid(24a213c38cd227b488eb502e89c0c69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Models/WeaponsAdditional/Scope/ACOG Sight.fbx using Guid(24a213c38cd227b488eb502e89c0c69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0525a0467ed9e2778f6809a84b1b565') in 0.125250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/TPS Shooter (Military style)/Models/Soldiers/Rifleman/Rifleman.fbx
+  artifactKey: Guid(d8c99430fdbbbad499756a3a184ac144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Models/Soldiers/Rifleman/Rifleman.fbx using Guid(d8c99430fdbbbad499756a3a184ac144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6179ec86c56b01352588ed58f9b706') in 0.100426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Photon Unity Networking/Demos/MarcoPolo-Tutorial/Monstergame/Resources/muktargame.fbx
+  artifactKey: Guid(492cc7eb84514c64da25775df488c9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/MarcoPolo-Tutorial/Monstergame/Resources/muktargame.fbx using Guid(492cc7eb84514c64da25775df488c9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839bfacb4452b0b62ead111dbb6d71a7') in 0.107703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 776.173086 seconds.
+  path: Assets/Fighters_(Pack)/Character/Fighter_01/Textures/Fighter_01_Ao.tga
+  artifactKey: Guid(b0c49f981e66cf94aadd98ca1edca1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fighters_(Pack)/Character/Fighter_01/Textures/Fighter_01_Ao.tga using Guid(b0c49f981e66cf94aadd98ca1edca1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'd451a708b7f2ec5799f46b7ebcba2f47') in 1.766835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Fighters_(Pack)/Character/Fighter_01/Textures/Fighter_01_Metallic.tga
+  artifactKey: Guid(58057c598607b6a4d9a866a09a0568e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fighters_(Pack)/Character/Fighter_01/Textures/Fighter_01_Metallic.tga using Guid(58057c598607b6a4d9a866a09a0568e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '629515f75e292bd17eaeef4c9bbf4b9a') in 0.365661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.243899 seconds.
+  path: Assets/Fighters_(Pack)/Prefabs/Fighter_02.prefab
+  artifactKey: Guid(1a0347bf83c18864aba4f248e012d438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fighters_(Pack)/Prefabs/Fighter_02.prefab using Guid(1a0347bf83c18864aba4f248e012d438) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '634247f7abeb1a1aea81e81edc22a965') in 2.371995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010320 seconds.
+  path: Assets/Fighters_(Pack)/Prefabs/Fighter_15.prefab
+  artifactKey: Guid(f180597bcb91e4348b92b15eef4250ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fighters_(Pack)/Prefabs/Fighter_15.prefab using Guid(f180597bcb91e4348b92b15eef4250ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'a818d4164a0d125c5d5c7e2e992c607c') in 2.055731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Fighters_(Pack)/Prefabs/Fighter_06.prefab
+  artifactKey: Guid(9fb5a4c636eabb04e8538a2a26d40478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fighters_(Pack)/Prefabs/Fighter_06.prefab using Guid(9fb5a4c636eabb04e8538a2a26d40478) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'bf0a4b097662367414b58c1ebd84a0bd') in 2.030896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Fighters_(Pack)/Prefabs/Fighter_12.prefab
+  artifactKey: Guid(9bdb8ac99a44444499cc4e55b96ec1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fighters_(Pack)/Prefabs/Fighter_12.prefab using Guid(9bdb8ac99a44444499cc4e55b96ec1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '2ff7e315d8de3c67852fd4cbf314fc73') in 1.453883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004288 seconds.
+  path: Assets/Fighters_(Pack)/Prefabs/Fighter_08.prefab
+  artifactKey: Guid(03dbcaf1ecc80d045a3b3f385db079e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fighters_(Pack)/Prefabs/Fighter_08.prefab using Guid(03dbcaf1ecc80d045a3b3f385db079e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'a0e8780174075bfa2184516c59e43b95') in 1.252664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Fighters_(Pack)/Prefabs/Fighter_07.prefab
+  artifactKey: Guid(2267c9e4b1b2f404d8fff4eb9047209f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fighters_(Pack)/Prefabs/Fighter_07.prefab using Guid(2267c9e4b1b2f404d8fff4eb9047209f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '2ac25aecb3f6fe370b7eadd78dce747d') in 1.479446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Fighters_(Pack)/Prefabs/Fighter_10.prefab
+  artifactKey: Guid(8d19d995bcc7c084db69f4b809175325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fighters_(Pack)/Prefabs/Fighter_10.prefab using Guid(8d19d995bcc7c084db69f4b809175325) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '201c5402c5987380a9aaf854951f669a') in 2.113848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 241.819508 seconds.
+  path: Assets/TPS Shooter (Military style)/Prefabs/Grenade.prefab
+  artifactKey: Guid(3b9585b3e46a97840a3714a38787344a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Prefabs/Grenade.prefab using Guid(3b9585b3e46a97840a3714a38787344a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '92d809aff2e3ca4bfec0dbdaca8b14eb') in 0.362754 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003702 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/utkarshshukla/Desktop/Arena-Assault/Arena-Assault/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/utkarshshukla/Desktop/Arena-Assault/Arena-Assault/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.905 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1906ms)
+		BeginReloadAssembly (298ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (148ms)
+		EndReloadAssembly (1474ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (484ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (671ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (63ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (502ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3393 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (22.9 KB). Loaded Objects now: 3968.
+Memory consumption went from 174.5 MB to 174.5 MB.
+Total: 4.852379 ms (FindLiveObjects: 0.320479 ms CreateObjectMapping: 0.237542 ms MarkObjects: 4.248381 ms  DeleteObjects: 0.044972 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 91.603561 seconds.
+  path: Assets/Fighters_(Pack)/Stand/Stand.obj
+  artifactKey: Guid(53e70fa26e0fd384390416f8bbc16e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fighters_(Pack)/Stand/Stand.obj using Guid(53e70fa26e0fd384390416f8bbc16e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f307fc38429f4f29e6972eb24ffd8c8') in 0.142577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.183169 seconds.
+  path: Assets/TPS Shooter (Military style)/Sounds/Weapon/Ak (Scope)/AkScopeFire.wav
+  artifactKey: Guid(92d17451534a9324b99dd85514c3766e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Sounds/Weapon/Ak (Scope)/AkScopeFire.wav using Guid(92d17451534a9324b99dd85514c3766e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02284904863e668e117480e3f8f4bf1') in 0.994433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/TPS Shooter (Military style)/Sounds/Menu/BadClick.mp3
+  artifactKey: Guid(7839fcb6b814e4e47bc91e4e9bf35681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Sounds/Menu/BadClick.mp3 using Guid(7839fcb6b814e4e47bc91e4e9bf35681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a4b710d369b37cbf8dd68beff980d1') in 0.969059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Photon Unity Networking/Demos/MarcoPolo-Tutorial/Monstergame/Resources/Scripts/footstep.wav
+  artifactKey: Guid(7d93183d7fa55d34fa5e60699b70656f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/MarcoPolo-Tutorial/Monstergame/Resources/Scripts/footstep.wav using Guid(7d93183d7fa55d34fa5e60699b70656f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eada6a2ce4fb34eb5fea5c1abd897203') in 0.014520 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003280 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/utkarshshukla/Desktop/Arena-Assault/Arena-Assault/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/utkarshshukla/Desktop/Arena-Assault/Arena-Assault/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.816 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1817ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (103ms)
+		EndReloadAssembly (1454ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (491ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (667ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (47ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (509ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3393 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (22.0 KB). Loaded Objects now: 3973.
+Memory consumption went from 182.8 MB to 182.7 MB.
+Total: 7.708296 ms (FindLiveObjects: 0.493677 ms CreateObjectMapping: 0.447370 ms MarkObjects: 6.731531 ms  DeleteObjects: 0.034519 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 64.134202 seconds.
+  path: Assets/TPS Shooter (Military style)/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/Barrel_v1_LD2.prefab
+  artifactKey: Guid(17002e90aebb00b40a69cf6fe9083dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/Barrel_v1_LD2.prefab using Guid(17002e90aebb00b40a69cf6fe9083dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '349469444286c75da40895a5d220473a') in 0.110964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/TPS Shooter (Military style)/RPG_FPS_game_assets_industrial/Barrels/Barrel_v2/Source/Barrel_v2.FBX
+  artifactKey: Guid(3693ef6778a2a2942b1a7b3f2e10c297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/RPG_FPS_game_assets_industrial/Barrels/Barrel_v2/Source/Barrel_v2.FBX using Guid(3693ef6778a2a2942b1a7b3f2e10c297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9487a41290ae3d149673d56de216be41') in 0.129558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.912091 seconds.
+  path: Assets/TPS Shooter (Military style)/RPG_FPS_game_assets_industrial/Barrels/Barrel_v2/Barrel_v2_single.prefab
+  artifactKey: Guid(ddf0187b9b9cef54bab5c9c49969758a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/RPG_FPS_game_assets_industrial/Barrels/Barrel_v2/Barrel_v2_single.prefab using Guid(ddf0187b9b9cef54bab5c9c49969758a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'c5a1245616337be78ea59690a9a6e8d6') in 0.035978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.812723 seconds.
+  path: Assets/Fighters_(Pack)/Character/Fighter_02/Textures/Fighter_02_Ao.tga
+  artifactKey: Guid(418e735289e4b2b489dd11956dd3879f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fighters_(Pack)/Character/Fighter_02/Textures/Fighter_02_Ao.tga using Guid(418e735289e4b2b489dd11956dd3879f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '41d51da69b3ddff67ce515120dfabd39') in 0.343376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Fighters_(Pack)/Character/Fighter_02/Textures/Fighter_02_Metallic.tga
+  artifactKey: Guid(4a890d47a60903643b1b15c6ea8f5901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fighters_(Pack)/Character/Fighter_02/Textures/Fighter_02_Metallic.tga using Guid(4a890d47a60903643b1b15c6ea8f5901) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '8ba9a1ee5e46a5b396c837466195d397') in 0.419757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.272082 seconds.
+  path: Assets/Fighters_(Pack)/Icons/Fighter_2.png
+  artifactKey: Guid(fc39fc38a58f95f4881ccc931feb9ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fighters_(Pack)/Icons/Fighter_2.png using Guid(fc39fc38a58f95f4881ccc931feb9ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'b85272970822e71666a04d07a3bdcf32') in 0.027656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Fighters_(Pack)/Icons/Fighter_10.png
+  artifactKey: Guid(677a0ed159612374fb6dcbeea1088e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fighters_(Pack)/Icons/Fighter_10.png using Guid(677a0ed159612374fb6dcbeea1088e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '382e94eeb74ddf22e640313b619f0395') in 0.044571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Fighters_(Pack)/Icons/Fighter_13.png
+  artifactKey: Guid(3f512747d3aa77b4e910c402f0155eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fighters_(Pack)/Icons/Fighter_13.png using Guid(3f512747d3aa77b4e910c402f0155eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '09a36ec9c79c30427cef0313b27777b6') in 0.050445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Fighters_(Pack)/Icons/Fighter_6.png
+  artifactKey: Guid(2b9953264fab67f4f87cac385b9e6a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fighters_(Pack)/Icons/Fighter_6.png using Guid(2b9953264fab67f4f87cac385b9e6a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'e7a4e889a643d105defe88104ae9c55c') in 0.044671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Fighters_(Pack)/Icons/Fighter_7.png
+  artifactKey: Guid(37794ac569b64d84b9131f0ef7a6211c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fighters_(Pack)/Icons/Fighter_7.png using Guid(37794ac569b64d84b9131f0ef7a6211c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '8d47bfc89a0096e2f4ba49472734d66d') in 0.047129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Fighters_(Pack)/Icons/Fighter_5.png
+  artifactKey: Guid(fd13d7e929575f04787d011f8c407479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fighters_(Pack)/Icons/Fighter_5.png using Guid(fd13d7e929575f04787d011f8c407479) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '696afa127df63d01696d05182643aa86') in 0.050434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Fighters_(Pack)/Icons/Fighter_9.png
+  artifactKey: Guid(6f69d9a6851e57445bd62f35ab63f373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fighters_(Pack)/Icons/Fighter_9.png using Guid(6f69d9a6851e57445bd62f35ab63f373) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '2d36cb7f7bb17348be59388c8647ead9') in 0.055184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Fighters_(Pack)/Icons/Fighter_4.png
+  artifactKey: Guid(5b313fd1b18f1e54cb379d675423f51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fighters_(Pack)/Icons/Fighter_4.png using Guid(5b313fd1b18f1e54cb379d675423f51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '8020afe53707202e064efa84ca1cd946') in 0.047377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.739461 seconds.
+  path: Assets/TPS Shooter (Military style)/Sounds/Weapon/Zoom/ZoomOut.wav
+  artifactKey: Guid(d4c43cc4b7871ec41913aa50e475765b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Sounds/Weapon/Zoom/ZoomOut.wav using Guid(d4c43cc4b7871ec41913aa50e475765b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87520cc4b026c6b0fb15cef62ade804') in 0.013912 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003569 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/utkarshshukla/Desktop/Arena-Assault/Arena-Assault/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/utkarshshukla/Desktop/Arena-Assault/Arena-Assault/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.797 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1799ms)
+		BeginReloadAssembly (212ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (96ms)
+		EndReloadAssembly (1449ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (457ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (687ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (532ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3393 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (22.0 KB). Loaded Objects now: 3976.
+Memory consumption went from 182.8 MB to 182.7 MB.
+Total: 6.815110 ms (FindLiveObjects: 0.346359 ms CreateObjectMapping: 0.198228 ms MarkObjects: 6.225451 ms  DeleteObjects: 0.043754 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003548 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/utkarshshukla/Desktop/Arena-Assault/Arena-Assault/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/utkarshshukla/Desktop/Arena-Assault/Arena-Assault/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.062 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2063ms)
+		BeginReloadAssembly (209ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (1717ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (467ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (868ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (58ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (686ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3393 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (22.0 KB). Loaded Objects now: 3979.
+Memory consumption went from 182.8 MB to 182.8 MB.
+Total: 7.315653 ms (FindLiveObjects: 0.520949 ms CreateObjectMapping: 0.316649 ms MarkObjects: 6.408494 ms  DeleteObjects: 0.067760 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002875 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/utkarshshukla/Desktop/Arena-Assault/Arena-Assault/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/utkarshshukla/Desktop/Arena-Assault/Arena-Assault/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.838 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1839ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (101ms)
+		EndReloadAssembly (1481ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (447ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (706ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (50ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (540ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3393 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (22.0 KB). Loaded Objects now: 3982.
+Memory consumption went from 182.8 MB to 182.8 MB.
+Total: 7.306770 ms (FindLiveObjects: 1.042497 ms CreateObjectMapping: 0.506212 ms MarkObjects: 5.722048 ms  DeleteObjects: 0.033179 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003018 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/utkarshshukla/Desktop/Arena-Assault/Arena-Assault/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/utkarshshukla/Desktop/Arena-Assault/Arena-Assault/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.761 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1762ms)
+		BeginReloadAssembly (209ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (87ms)
+		EndReloadAssembly (1414ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (454ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (647ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (497ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3393 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (22.0 KB). Loaded Objects now: 3985.
+Memory consumption went from 182.8 MB to 182.8 MB.
+Total: 4.929450 ms (FindLiveObjects: 0.354122 ms CreateObjectMapping: 0.430944 ms MarkObjects: 4.107728 ms  DeleteObjects: 0.035451 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 172.569703 seconds.
+  path: Assets/TPS Shooter (Military style)/Models/Grenade/body.fbx
+  artifactKey: Guid(668c978d8cc1449f4b08a79052935a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPS Shooter (Military style)/Models/Grenade/body.fbx using Guid(668c978d8cc1449f4b08a79052935a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5f39b315c886ab5e7558b932de73d7') in 0.118170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Fighters_(Pack)/Character/Fighter_12/Mesh/Fighter_12_Mesh.FBX
+  artifactKey: Guid(0ff0cb34da8eecc4a9fd7a49ea65d7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fighters_(Pack)/Character/Fighter_12/Mesh/Fighter_12_Mesh.FBX using Guid(0ff0cb34da8eecc4a9fd7a49ea65d7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81fb5b03cf2464919b35d6ef42d8faf') in 0.132031 seconds 

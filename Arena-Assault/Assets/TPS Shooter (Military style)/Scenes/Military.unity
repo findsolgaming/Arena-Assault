@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 313270155}
-  m_IndirectSpecularColor: {r: 0.11327288, g: 0.10527728, b: 0.09330125, a: 1}
+  m_IndirectSpecularColor: {r: 0.11329138, g: 0.10532319, b: 0.09331836, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2381,12 +2381,16 @@ PrefabInstance:
       value: 43625.24
       objectReference: {fileID: 0}
     - target: {fileID: 146792193895805086, guid: 3c39e7996afd64835b40c8139d7ddf86, type: 3}
+      propertyPath: m_SuspensionDistance
+      value: 0.1962
+      objectReference: {fileID: 0}
+    - target: {fileID: 146792193895805086, guid: 3c39e7996afd64835b40c8139d7ddf86, type: 3}
       propertyPath: m_ForceAppPointDistance
       value: 0.8208547
       objectReference: {fileID: 0}
     - target: {fileID: 146792193895805086, guid: 3c39e7996afd64835b40c8139d7ddf86, type: 3}
       propertyPath: m_SuspensionSpring.damper
-      value: 6900.3765
+      value: 6900.376
       objectReference: {fileID: 0}
     - target: {fileID: 146792193895805086, guid: 3c39e7996afd64835b40c8139d7ddf86, type: 3}
       propertyPath: m_SuspensionSpring.spring
@@ -2394,7 +2398,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 146895067104905624, guid: 3c39e7996afd64835b40c8139d7ddf86, type: 3}
       propertyPath: m_SuspensionDistance
-      value: 0.1962
+      value: 0.19620001
       objectReference: {fileID: 0}
     - target: {fileID: 146895067104905624, guid: 3c39e7996afd64835b40c8139d7ddf86, type: 3}
       propertyPath: m_ForceAppPointDistance
@@ -4132,7 +4136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 146792193895805086, guid: 3c39e7996afd64835b40c8139d7ddf86, type: 3}
       propertyPath: m_SuspensionDistance
-      value: 0.1962
+      value: 0.19620003
       objectReference: {fileID: 0}
     - target: {fileID: 146792193895805086, guid: 3c39e7996afd64835b40c8139d7ddf86, type: 3}
       propertyPath: m_ForceAppPointDistance
@@ -4144,7 +4148,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 146792193895805086, guid: 3c39e7996afd64835b40c8139d7ddf86, type: 3}
       propertyPath: m_SuspensionSpring.spring
-      value: 43127.35
+      value: 43127.344
       objectReference: {fileID: 0}
     - target: {fileID: 146895067104905624, guid: 3c39e7996afd64835b40c8139d7ddf86, type: 3}
       propertyPath: m_SuspensionDistance
@@ -8263,6 +8267,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1882842361599418, guid: 86157c8fc9a11432c98282a17f347daa, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941140484452338, guid: 86157c8fc9a11432c98282a17f347daa, type: 3}
+      propertyPath: m_Name
+      value: FullPlayer
+      objectReference: {fileID: 0}
     - target: {fileID: 4127437848393078, guid: 86157c8fc9a11432c98282a17f347daa, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -8295,13 +8307,21 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 4127437848393078, guid: 86157c8fc9a11432c98282a17f347daa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4127437848393078, guid: 86157c8fc9a11432c98282a17f347daa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 179.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 4127437848393078, guid: 86157c8fc9a11432c98282a17f347daa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4670134514783400, guid: 86157c8fc9a11432c98282a17f347daa, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.00000004371139
-      objectReference: {fileID: 0}
-    - target: {fileID: 224825067983720824, guid: 86157c8fc9a11432c98282a17f347daa, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86157c8fc9a11432c98282a17f347daa, type: 3}
