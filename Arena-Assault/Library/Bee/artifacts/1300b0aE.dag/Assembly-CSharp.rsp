@@ -356,6 +356,7 @@
 "Assets/DOTween/Modules/DOTweenModuleUI.cs"
 "Assets/DOTween/Modules/DOTweenModuleUnityVersion.cs"
 "Assets/DOTween/Modules/DOTweenModuleUtils.cs"
+"Assets/Developer/Scripts/PhotonConnect.cs"
 "Assets/Photon Unity Networking/Demos/Demo2DJumpAndRunWithPhysics/Scripts/Demo2DJumpAndRun.cs"
 "Assets/Photon Unity Networking/Demos/Demo2DJumpAndRunWithPhysics/Scripts/JumpAndRunMovement.cs"
 "Assets/Photon Unity Networking/Demos/DemoBoxes/ColorPerPlayer.cs"
